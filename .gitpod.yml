@@ -1,0 +1,6 @@
+tasks:
+  - init: nvm install 20 && nvm use 20 && npm i -g npm pnpm turbo vercel husky tsup lint-staged prettier eslint cross-env git-precommit-checks @commitlint/cli @commitlint/config-conventional @commitlint/cz-commitlint commitizen validate-branch-name @graphql-codegen/cli
+    command: pnpm install && pnpm prepare
+vscode:
+  extensions:
+    - vscode-icons-team.vscode-icons
